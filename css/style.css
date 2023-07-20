@@ -1,65 +1,103 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
 }
 
-img{
-    width: 250px;
-    height: 150px;
-   
-}
-.griglia{
-    background-color: gray;
-    border-radius: 2px;
-    padding:2px 3px ;
-    height: 20px;
-    margin: 6px 6px;
+img {
+  width: 250px;
+  height: 150px;
 }
 
-.arrow{
-    background-color: gray;
-    border-radius: 2px;
-    margin: 6px 6px;
-    height: 20px;
-    padding: 2px 3px;
-
+i {
+  color: white;
 }
 
-.bar-1{
-    height: 70px;
-    background-color: black;
-    display: flex;
-    justify-content: flex-end;
-    color: white;
+.flex {
+  display: flex;
 }
 
-.bar-2{
-    height: 80px;
-    background-color: black;
-    display: flex;
-    justify-content: space-between;
+.flex-column {
+  flex-direction: column;
 }
 
-.box-img{
-    margin-bottom: 5px;
-    margin-left: 2px;
-    position: relative;
-
+.griglia {
+  background-color: gray;
+  border-radius: 2px;
+  padding: 2px 3px;
+  height: 20px;
+  margin: 6px 6px;
 }
 
-.center{
-    height: calc(100vh - 150px );
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-content: start;
-    overflow-y: auto;
+.arrow {
+  background-color: gray;
+  border-radius: 2px;
+  margin: 6px 6px;
+  height: 20px;
+  padding: 2px 3px;
 }
- 
-.microphone{
-    position: absolute;
-    background-color: rgba(220, 220, 220, 0.387);
-    bottom: 5px;
-    left: 0px;
+
+.bar-1 {
+  height: 70px;
+  background-color: black;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-img {
+  margin-bottom: 5px;
+  margin-left: 2px;
+  position: relative;
+}
+
+.center {
+  height: calc(100vh - 150px);
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: start;
+  overflow-y: auto;
+}
+
+.microphone {
+  position: absolute;
+  background-color: rgba(220, 220, 220, 0.387);
+  bottom: 5px;
+  left: 0px;
+}
+
+.bar-2 {
+  height: 80px;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+}
+
+.bar-2 {
+  color: white;
+}
+
+.align {
+  align-items: center;
+}
+
+.bar-2 i {
+  font-size: 2rem;
+}
+.bar-center {
+  text-align: center;
+}
+
+.space-1 {
+  margin-right: 20px;
+  margin-left: 15px;
+}
+
+.bar-right p {
+  line-height: 80px;
+  padding: 0px 15px;
+  background-color: #4a4a4a4a;
+  color: red;
+  
 }
