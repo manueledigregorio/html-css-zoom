@@ -9,21 +9,42 @@ img{
     height: 150px;
    
 }
+.griglia{
+    background-color: gray;
+    border-radius: 2px;
+    padding:2px 3px ;
+    height: 20px;
+    margin: 6px 6px;
+}
 
+.arrow{
+    background-color: gray;
+    border-radius: 2px;
+    margin: 6px 6px;
+    height: 20px;
+    padding: 2px 3px;
+
+}
 
 .bar-1{
     height: 70px;
     background-color: black;
+    display: flex;
+    justify-content: flex-end;
+    color: white;
 }
 
 .bar-2{
     height: 80px;
     background-color: black;
+    display: flex;
+    justify-content: space-between;
 }
 
 .box-img{
     margin-bottom: 5px;
     margin-left: 2px;
+    position: relative;
 
 }
 
@@ -34,4 +55,11 @@ img{
     justify-content: center;
     align-content: start;
     overflow-y: auto;
+}
+ 
+.microphone{
+    position: absolute;
+    background-color: rgba(220, 220, 220, 0.387);
+    bottom: 5px;
+    left: 0px;
 }
