@@ -22,6 +22,10 @@ i {
   flex-direction: column;
 }
 
+.align {
+  align-items: center;
+}
+
 .griglia {
   background-color: gray;
   border-radius: 2px;
@@ -72,21 +76,24 @@ i {
   background-color: black;
   display: flex;
   justify-content: space-between;
-}
-
-.bar-2 {
   color: white;
 }
 
-.align {
-  align-items: center;
+.space{
+  margin-right: 20px;
+  text-align: center;
 }
+
+
 
 .bar-2 i {
   font-size: 2rem;
+
 }
-.bar-center {
+.bar-center .bar-left {
   text-align: center;
+  flex-shrink: 0;
+
 }
 
 .space-1 {
